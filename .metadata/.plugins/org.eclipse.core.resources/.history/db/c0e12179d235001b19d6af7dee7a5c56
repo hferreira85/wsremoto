@@ -1,0 +1,16 @@
+package a_exerciciosfixacao;
+
+public class aHelloWorld {
+
+	public static void main(String[] args) {
+
+		String variavel = "hello worLD ";
+		System.out.println("Original: " + variavel);
+		System.out.println(" Maiúscula: " + variavel.toUpperCase());
+		System.out.println(" Minúscula: " + variavel.toLowerCase());
+		System.out.println(" Qtde de caracteres: " + variavel.length());
+
+
+	}
+
+}

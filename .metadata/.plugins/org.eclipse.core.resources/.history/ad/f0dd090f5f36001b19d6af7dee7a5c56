@@ -1,0 +1,10 @@
+package br.com.bankofoz.beans;
+
+public class extends Rendimento {
+
+private float rendimento;
+
+
+	
+	
+}

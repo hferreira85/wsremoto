@@ -1,0 +1,23 @@
+package br.com.lojaabc.implementacao;
+
+import br.com.lojaabc.beans.Venda;
+
+public class ImplementarVenda {
+
+	public static void main(String[] args) {
+
+		Venda venda = new Venda(
+				Magic.i("Código"),
+				Magic.s("Descrição"),
+				Magic
+				new
+				
+				);
+			
+		}
+		
+		System.out.println(venda.toString())
+;
+	}
+
+}

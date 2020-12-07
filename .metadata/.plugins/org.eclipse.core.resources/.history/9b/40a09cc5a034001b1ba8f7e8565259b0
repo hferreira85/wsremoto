@@ -1,0 +1,48 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class ExercicioPptSlide77_4 {
+
+	public static void main(String[] args) {
+		/*
+		 * 4º) Monte um programa que solicite a idade e o nome das pessoas. Ao terminar, o programa deverá exibir a pessoa mais velha,
+		 * a pessoa mais nova, a quantidade de pessoas maiores de idade e a média entre as idades que foram digitadas.
+		 *	=> laço que vai solicitar os dados (nome e idade) 
+		 *	=> conta quantas pessoas são maiores de idade
+		 *	=> Média das idades que foram digitadas
+		 *	=> Exibir o nome e a idade da pessoa mais experiente
+		 *	=> Exibir o nome e a idade da pessoa mais jovem
+			 */
+
+		//String nome = JOptionPane.showInputDialog("Informe seu nome");
+		//short idade = Short.parseShort(JOptionPane.showInputDialog("Informe sua idade"));
+		
+		int contador=1;
+		while (contador>0) {
+			contador = Integer.parseInt(JOptionPane.showInputDialog("Informe seu nome"));
+		}
+			System.out.println(contador);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

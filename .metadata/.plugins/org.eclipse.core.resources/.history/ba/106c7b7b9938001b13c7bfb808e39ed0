@@ -1,0 +1,53 @@
+package br.com.excecoes.implementacao;
+
+public class TesteExcecao {
+
+	public static void main(String[] args) {
+
+		try {
+			int numero = Integer.parseInt("7");
+			if(numero<0) {
+				throw new RuntimeException("Lige para o 999");
+			}
+			System.out.println("Numero: " + numero);
+			
+			String palavra = null;
+			System.out.println("Qtde caracteres: " + palavra.length());
+						
+			int[] valores = new int[2];
+			valores[0] = 541;
+			valores[1] = 82;
+			valores[2] = 11;
+						
+			catch(Exception e) {
+				System.out.println(MinhaExcecao.tratar(e));
+			}finally {
+				System.out.println("Tenha um bom dia de trabalho");
+				try {
+					//encerrar a conexão com o banco de dados
+				}catch(Exception e){
+					System.out.println(MinhaExcecao.tratar(e));
+				}
+			
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

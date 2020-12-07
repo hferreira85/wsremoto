@@ -1,0 +1,30 @@
+package br.com.lojaabc.beans;
+
+public class Venda {
+
+	
+private int notaFiscal;
+private Produto produto;
+private Cliente cliente;
+private int qtde;
+private float total;
+	
+	
+	public void calcularTotal() {
+		if(cliente.isEspecial()==true) {
+			total = produto.getValorVenda() * (float) 0.95 * qtde;
+		}else {
+			total = produto.getValorVenda() * qtde;
+		}
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

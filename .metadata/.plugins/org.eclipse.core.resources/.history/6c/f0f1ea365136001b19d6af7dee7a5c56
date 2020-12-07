@@ -1,0 +1,14 @@
+package br.com.lojaabc.implementacao;
+
+public class ImplementarCliente {
+
+	public static void main(String[] args) {
+
+		char opcao = Magic.s("Digite F para pessoa fisica").charAt(0);
+		
+		
+		
+		
+		
+	}
+}

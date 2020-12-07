@@ -1,0 +1,20 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class ExercicioPptTipoGraduacao {
+
+	public static void main(String[] args) {
+		String graduacao = JOptionPane.showInputDialog("Informe se sua graduação é Tecnologo ou Bacharelado");
+		if (graduacao.equals("tecnologo")){
+			System.out.println("Seu curso dura de 2 a 3 anos");
+		}else if(graduacao.equals("bacharelado")){
+			System.out.println("Seu curso dura de 4 à 6 anos");
+		}else {
+			System.out.println("Informe o nome do curso correto");
+		}
+			
+			
+	}
+
+}

@@ -1,0 +1,24 @@
+package a_exerciciosfixacao;
+
+import javax.swing.JOptionPane;
+
+public class CustoCarroConsumidor {
+
+	//float percentualImpostos = Float.parseFloat(JOptionPane.showInputDialog("Informe o percentual de impostos"));
+
+	
+	public static void main(String[] args) {
+
+		double precoFabrica = Double.parseDouble(JOptionPane.showInputDialog("Informe o preço de fábrica"));
+		double lucroDistribuidor = Double.parseDouble(JOptionPane.showInputDialog("Informe o % de lucro do distribuidor"));
+		double percentualImpostos = Double.parseDouble(JOptionPane.showInputDialog("Informe o % dos impostos"));
+
+		lucroDistribuidor = (precoFabrica * lucroDistribuidor);
+		percentualImpostos = (precoFabrica * percentualImpostos);
+		System.out.println("O lucro do distribuidor é: " + lucroDistribuidor);
+		System.out.println("O valor correspondente aos impostos é: " + percentualImpostos);
+		System.out.println("O preços final do veículo é: " + (precoFabrica + lucroDistribuidor + percentualImpostos));
+	
+	}
+
+}

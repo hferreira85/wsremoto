@@ -1,0 +1,17 @@
+package a_exerciciosfixacao;
+
+public class e_CalculaMediaAritmetica {
+
+	public static void main(String[] args) {
+
+		short nota1 = 8;
+		short nota2 = 10;
+		
+		short media = ((nota1+nota2))/2;
+		
+		System.out.println("Sua média é: " + media);
+		
+		
+	}
+
+}

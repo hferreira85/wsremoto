@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.Short"/>
+    <fullyQualifiedTypeName name="br.com.elevadorjava.modelo.Elevador"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="br.com.universidadexyz.util.Magic"/>
+    <fullyQualifiedTypeName name="br.com.lojaabc.beans.PessoaFisica"/>
+    <fullyQualifiedTypeName name="br.com.lojaabc.implementacao.Magic"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="tratarexcecao.minhaexcecao"/>
+</qualifiedTypeNameHistroy>

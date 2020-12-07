@@ -1,0 +1,16 @@
+package a_exerciciosfixacao;
+
+import javax.swing.JOptionPane;
+
+public class CondicaoPagamento {
+
+	public static void main(String[] args) {
+		double precoNormal = Double.parseDouble(JOptionPane.showInputDialog("Informe o preco de etiqueta do produto"));
+		int opcao = Integer.parseInt(JOptionPane.showInputDialog("Escolha a forma de pagamento \n <1> À vista (dinheiro ou cheque) \n <2> À vista no cartão de crédito"));
+		
+		
+		
+
+	}
+
+}

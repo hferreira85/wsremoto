@@ -1,0 +1,18 @@
+package a_exerciciosfixacao;
+
+import javax.swing.JOptionPane;
+
+public class d_pedeDoisNumeroseSoma {
+	
+	public static void main(String[] args) {
+	
+	int a = Integer.parseInt(JOptionPane.showInputDialog("Digite o primeiro número"));
+	int b = Integer.parseInt(JOptionPane.showInputDialog("Digite o segundo número"));
+	
+	int soma = (a+b);
+	
+	System.out.println("O resultado da soma é: " + soma);
+			
+	
+	}
+}

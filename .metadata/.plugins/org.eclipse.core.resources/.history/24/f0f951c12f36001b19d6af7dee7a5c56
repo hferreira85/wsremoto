@@ -1,0 +1,21 @@
+package br.com.lojaabc.implementacao;
+
+import br.com.lojaabc.beans.Venda;
+
+public class ImplementarVenda {
+
+	public static void main(String[] args) {
+
+		Venda venda = new Venda(
+				Magic.("Nota Fiscal"),
+				new
+				
+				);
+			
+		}
+		
+		System.out.println(venda.toString())
+;
+	}
+
+}

@@ -1,0 +1,41 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+/*
+ * O seu programa solicitará o nível de acesso de uma pessoa que pode ser: ADM, USR ou GUEST
+ * e o gênero dessa pessoa, caso o nível seja ADM, ele deverá exibir
+ * “Olá administrador”, para os homens, ou “Olá administradora”, para as mulheres. 
+ * Se o nível for USR, deverá exibir “Olá usuário”, para os homens, ou “Olá usuária”, para as mulheres.
+ * Se o nível for GUEST, a mensagem deverá ser “Olá visitante”, e se o nível digitado for diferente de ADM, USR ou GUEST
+ * deverá exibir a mensagem “Olá desconhecido(a)”.
+
+ */
+
+
+public class ExercicioPptNivelAcesso {
+
+	public static void main(String[] args) {
+		String tipoacesso = JOptionPane.showInputDialog("Informe seu tipo de acesso").toUpperCase();
+		String sexo = JOptionPane.showInputDialog("Informe se seu sexo é masculino ou feminino");
+		if (tipoacesso.equals("ADM") && sexo.equals("feminino")) {
+			System.out.println("Olá administradora");
+		}else {
+			System.out.println("Olá administrador");
+		
+		//}else if(tipoacesso.equals("USR") && sexo.equals("feminino")) {
+			
+		}
+			
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

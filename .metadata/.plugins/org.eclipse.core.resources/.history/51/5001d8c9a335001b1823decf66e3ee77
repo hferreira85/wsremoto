@@ -1,0 +1,58 @@
+package br.com.universidadexyz.beans;
+
+public class Aluno {
+
+
+	//façam: preencherNome/retornarNome/preencherCPF/retornarCPF
+	
+	private int rm; //declarando variavel rm "Registro Matricula" do tipo Inteiro
+	private String nome;
+	private String cpf;
+
+	public String getAll() {
+		return
+			"RM..: " + rm + "\n" +
+			"Nome: " + nome + "\n" +
+			"CPF.: " + cpf;
+	}
+		
+	public void setAll(int rm, String nome, String cpf) { //set para manter o padrão do eclipse (colocou o nome dos atributos com o mesmo nome da variável)
+		this.rm = rm;
+		this.nome = nome;
+		this.cpf = cpf;
+	}
+	
+	public Aluno(int rm, String nome, String cpf) {
+		this.rm=rm;
+		this.nome =nome;
+		this.cpf=cpf;
+	}
+	
+	public int getRm() {
+		return rm;
+	}
+	public void setRm(int rm) {
+		this.rm = rm;
+	}
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	public String getCpf() {
+		return cpf;
+	}
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
+	
+	
+
+	
+	
+	
+	
+	
+	
+}

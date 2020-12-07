@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;repeticao.DesafioDo&apos; to &apos;DesafioDoDescubraNumero&apos;&#x0D;&#x0A;- Original project: &apos;logica&apos;&#x0D;&#x0A;- Original element: &apos;repeticao.DesafioDo&apos;&#x0D;&#x0A;- Renamed element: &apos;repeticao.DesafioDoDescubraNumero&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;DesafioDo&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;repeticao{DesafioDo.java[DesafioDo" matchStrategy="1" name="DesafioDoDescubraNumero" qualified="false" references="true" similarDeclarations="false" stamp="1606960521172" textual="false" version="1.0"/>
+</session>

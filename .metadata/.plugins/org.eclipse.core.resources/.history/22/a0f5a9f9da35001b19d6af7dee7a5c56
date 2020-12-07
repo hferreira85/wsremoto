@@ -1,0 +1,13 @@
+package a_exerciciosfixacao;
+
+import javax.swing.JOptionPane;
+
+public class f_TempoGraduacao {
+
+	public static void main(String[] args) {
+
+		String graduacao = JOptionPane.showInputDialog("Informe sua graduação:  \n <1> para Tecnológico \n <2> para Barachelado");
+		
+	}
+
+}

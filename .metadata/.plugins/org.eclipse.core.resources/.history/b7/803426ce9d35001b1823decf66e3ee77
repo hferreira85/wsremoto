@@ -1,0 +1,33 @@
+package br.com.universidadexyz.implementacao;
+
+import br.com.universidadexyz.beans.Aluno;
+
+public class ImplementarAluno {
+
+
+	
+	public static void main(String[] args) {
+
+		//corrigir usando como base "Professor" ou "Professor3"
+		
+		Aluno aluno = new Aluno();
+		aluno.setCpf(magic.s("CPF"));
+		aluno.setNome(magic.s("Nome"));
+		aluno.setRm(magic.i("RM"));
+		System.out.println("Nome:." + aluno.getNome());
+		System.out.println("CPF:.." + aluno.getCpf());
+		System.out.println("RM...." + aluno.getRm());
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

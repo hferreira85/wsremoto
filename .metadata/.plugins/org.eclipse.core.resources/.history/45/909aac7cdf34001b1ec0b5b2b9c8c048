@@ -1,0 +1,17 @@
+package br.com.elevadorjava.testes;
+
+public class TesteElevador {
+
+	public static void main(String[] args) {
+		
+		Elevador elevador = new Elevador();
+		
+		elevador.definirValores(
+				"TorreB",
+				(short) 10,
+				(short) -1,
+				(byte) 5
+				);
+	}
+
+}

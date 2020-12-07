@@ -1,0 +1,40 @@
+package br.com.universidadexyz.implementacao;
+
+import javax.swing.JOptionPane;
+
+import br.com.universidadexyz.beans.Aluno;
+import br.com.universidadexyz.beans.Curso;
+import br.com.universidadexyz.beans.Professor;
+import br.com.universidadexyz.beans.Turma;
+import br.com.universidadexyz.beans.Turma2
+;
+public static
+
+public class ImplementarTurma2 {
+
+	public static void main(String[] args) {
+		Turma turma = new Turma(
+				Integer.parseInt(JOptionPane.showInputDialog("Numero"));
+				new Aluno(
+						
+						);
+				new Professor(
+						
+						);
+				new Curso(
+						
+						);
+							
+				JOptionPane.showInputDialog("Periodo")
+				JOptionPane.showInputDialog("Sala")
+				);
+		
+		System.out.println(turma.toString());
+		
+		
+		
+		
+
+	}
+
+}

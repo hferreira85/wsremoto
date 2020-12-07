@@ -1,0 +1,94 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class ExercicioPptSlide77_4 {
+
+	public static void main(String[] args) {
+		/*
+		 * 4º) Monte um programa que solicite a idade e o nome das pessoas. Ao terminar, o programa deverá exibir a pessoa mais velha,
+		 * a pessoa mais nova, a quantidade de pessoas maiores de idade e a média entre as idades que foram digitadas.
+		 *	=> laço que vai solicitar os dados (nome e idade) 
+		 *	=> conta quantas pessoas são maiores de idade
+		 *	=> Média das idades que foram digitadas
+		 *	=> Exibir o nome e a idade da pessoa mais experiente
+		 *	=> Exibir o nome e a idade da pessoa mais jovem
+			 */
+
+		/*
+ * Resp Henriuqe
+		 
+		String nome = "";
+		short idade=0;
+		
+		do {
+		nome = JOptionPane.showInputDialog("Informe seu nome");
+		idade = Short.parseShort(JOptionPane.showInputDialog("Informe sua idade"));
+				
+		}while(JOptionPane.showConfirmDialog(
+			null,
+			"Deseja continuar?",
+			"Pergunta",
+			JOptionPane.YES_NO_CANCEL_OPTION)==0);
+		
+		short cont=0;
+		if (idade>17) {
+		cont=cont++;
+		}
+		System.out.println("Total de: " + cont + " pessoas maiores de idade");
+		*/
+		
+// Resp Professor
+		
+		String nome = "";
+		int idade=0;
+		int maioresDeIdade=0;
+		int qtdePessoas=0;
+		int totalIdade =0;
+		String nomeExperiente="";
+		int idadeExperiente=0;
+		
+		do {
+		nome = JOptionPane.showInputDialog("Informe seu nome");
+		idade = Short.parseShort(JOptionPane.showInputDialog("Informe sua idade"));
+		if (idade>=18) {
+			maioresDeIdade++;
+		}
+		qtdePessoas++;
+		totalIdade+=idade; //totalIdade=totalIdade+idade;
+		if (idade>idadeExperiente) {
+			idadeExperiente=idade;
+			nomeExperiente=nome;
+		}
+		
+				
+		}while(JOptionPane.showConfirmDialog(null, "Deseja continuar?",	"?", JOptionPane.YES_NO_CANCEL_OPTION)==0);
+		
+		System.out.println("Total de: " + maioresDeIdade + " pessoas maiores de idade");
+		System.out.println("Média de idades: " + (totalIdade/qtdePessoas));
+		System.out.println("O mais experiente é: " + nomeExperiente + " com "  + idadeExperiente + " anos ");
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

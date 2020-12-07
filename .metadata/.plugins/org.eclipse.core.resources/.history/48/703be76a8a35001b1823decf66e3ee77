@@ -1,0 +1,25 @@
+package br.com.universidadexyz.beans;
+
+public class Professor {
+
+	private int id; //declarando variavel rm "Registro Matricula" do tipo Inteiro
+	private String apelido;
+	private String formacao;
+	private float valorHora;
+
+	public String getAll() {
+		return
+			"RM..: " + rm + "\n" +
+			"Nome: " + nome + "\n" +
+			"CPF.: " + cpf;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

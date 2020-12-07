@@ -1,0 +1,17 @@
+package br.com.universidadexyz.beans;
+
+public class Turma {
+
+	private int numero;
+	private Aluno aluno;
+	private Professor professor;
+	private Curso curso;
+	private String periodo;
+	private String sala;
+	
+		
+	
+	
+	
+	
+}
